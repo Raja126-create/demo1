@@ -1,0 +1,297 @@
+#even odd programs
+n = 45               
+if n % 2 ==0        # 45%2==0 we can divide with number then finally we can grt remainder o 
+                    # even number,not get o remainder,odd numder
+     print("Even")
+else:
+    print("Odd")
+####
+### sum odd digits of anumber
+n = 123456
+s = 0
+
+while n > 0:     #123456>0
+                 #123456%10=12345.6
+    s += n % 10 # 12345.6//10=12345 // remove float values
+    n //= 10
+
+print("Sum of digits =", s)
+###reverse a number
+n=123456
+r=0
+while n>0:         #123456>0
+                   #123456%10 =12345.6,1234.5,1234.5//10
+                   #0*10+6= 6,0*10+5=5,
+    digit=n%10
+    r=r*10+digit
+    n=//10
+print("reversed number:",r)
+###area of circle
+r = 5.5
+area = 3.14 * r * r   # pi *r*2
+print("Area =", area)
+##Convert Celsius to Fahrenheit
+c = 35.5
+f = (c * 9/5) + 32          #(35.5*9/)+32
+print("Fahrenheit =", f)
+###foregin heat to celius convert
+f=34                   #f=34,
+c=(5/9)*(f-32)
+print("celius"c)
+###########
+#simple intersect
+p = 34
+r = 34.5
+t =23
+
+si = (p * r * t) / 100        # (34*34.4*23)/100
+print("Simple Interest =", si)
+
+######## count vowels
+   text = input("Enter a string: ")  ####Raja,aeiou
+vowels = "aeiouAEIOU"
+count = 0
+
+for ch in text:                     ###ch means charcter,ch in text:
+                                    ####if ch in vowels present
+                                    count+=1
+    if ch in vowels:
+        count += 1
+
+print("Vowel count =", count)
+########check the string palindrome or not
+text = madam
+
+if text == text[::-1]:    #if madam==text[madam]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+#######largest two number
+num=[28,2,3,5]
+ for  
+ first=float()
+ second=float()
+ 
+ for n in nums:
+    if n>first:
+        second=first
+        first=n
+        elif n> second and n!=first:
+            second=n
+        print("largest number=",first)
+        print("second largest=",second)
+###########
+#Positive, Negative, or Zero
+n = int(input())
+if n > 0:
+    print("Positive")
+elif n < 0:
+    print("Negative")
+else:
+    print("Zero")
+##########
+#####number palindrome
+n = int(input())
+temp = n
+rev = 0
+while temp > 0:
+    rev = rev * 10 + temp % 10
+    temp //= 10
+
+print("Palindrome" if rev == n else "Not Palindrome")
+######armstrong number
+n = int(input())
+temp = n
+s = 0
+
+while temp > 0:
+    digit = temp % 10
+    s += digit ** 3
+    temp //= 10
+
+print("Armstrong" if s == n else "Not Armstrong")
+######factorial
+n = int(input())
+fact = 1
+for i in range(1, n+1):
+    fact *= i
+print(fact)
+
+#####GCD
+a = int(input())
+b = int(input())
+
+while b != 0:
+    a, b = b, a % b
+
+print(a)
+#############
+####LCM
+a = int(input())
+b = int(input())
+
+x, y = a, b
+while b != 0:
+    a, b = b, a % b
+
+gcd = a
+lcm = (x * y) // gcd
+print(lcm)
+#####Prime number
+
+
+
+
+
+
+####### Prime numbers between 1 to N
+
+
+
+
+
+
+
+
+####Sum of even numbers up to N
+n = int(input())
+s = 0
+for i in range(2, n+1, 2):
+    s += i
+print(s)
+#######Decimal to binary
+
+
+
+
+
+
+
+######Binary to decimal
+
+
+
+
+
+
+
+
+######Fibonacci series
+n = int(input())
+a, b = 0, 1
+
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+########
+###Nth Fibonacci
+n = int(input())
+a, b = 0, 1
+
+for _ in range(n):
+    a, b = b, a + b
+
+print(a)
+
+
+
+#####Compound Interest
+p = float(input())
+r = float(input())
+t = float(input())
+
+ci = p * ((1 + r/100)**t) - p
+print(ci)
+
+
+####. BMI
+weight = float(input())
+height = float(input())  # in meters
+bmi = weight / (height * height)
+print(bmi)
+
+
+
+#Speed = Distance / Time
+d = float(input())
+t = float(input())
+speed = d / t
+print(speed)
+
+####Km to miles
+
+
+
+
+
+
+
+#####
+#Average of N float numbers
+n = int(input())
+s = 0
+
+for i in range(n):
+    x = float(input())
+    s += x
+
+print(s / n)
+
+
+#####Count consonants
+s = input()
+vowels = "aeiouAEIOU"
+count = 0
+for ch in s:
+    if ch.isalpha() and ch not in vowels:
+        count += 1
+print(count)
+
+
+####. Reverse string without slicing
+s = input()
+rev = ""
+for ch in s:
+    rev = ch + rev
+print(rev)
+
+
+
+####Character frequency
+
+
+
+
+
+
+
+
+#####Longest word
+
+
+######Anagram check
+
+
+
+
+
+####Print only digits
+s = input()
+for ch in s:
+    if ch.isdigit():
+        print(ch, end="")
+#### print only alphabets
+s = input()
+for ch in s:
+    if ch.isalpha():
+        print(ch, end="")
+
+
+
+
+
+
+#
+
+
+

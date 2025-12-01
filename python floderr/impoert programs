@@ -1,0 +1,105 @@
+Write a program to find the HCF/GCD of a list of numbers.
+
+Count how many prime numbers are in a given list.
+
+Find the next prime number after a given number.
+
+Find the sum of all prime digits in a number.
+
+Check if a number is a Harshad number (sum of digits divides the number).
+
+Check if a number is a Strong number (sum of factorial of digits = number).
+
+Check if a number is a Perfect number (sum of proper divisors = number).
+
+Print all Armstrong numbers in a given range.
+
+Count how many numbers in a list are perfect squares.
+
+Convert a number to binary, octal, and hex manually (without built-in).
+
+Find the LCM of a list of numbers.
+
+Count how many pairs in a list have sum equal to K.
+
+Given a number, print its prime factorization.
+
+Find the longest increasing subsequence (LIS) in a list.
+
+Check if any permutation of digits in a number can form a palindrome.
+
+🟪 PART–2: STRING ADVANCED LOGIC (15 Questions)
+
+Check if two strings are isomorphic.
+
+Find the first non-repeating character in a string.
+
+Remove all duplicate characters while maintaining order.
+
+Count frequency of each word in a paragraph.
+
+Check if a string contains any special characters.
+
+Reverse the order of words in a sentence.
+
+Convert a sentence to camelCase manually.
+
+Find all substrings of a string.
+
+Count how many substrings are palindromes.
+
+Check whether a string is a valid identifier in Python.
+
+Find the longest repeating substring.
+
+Rotate a string by k positions (left or right).
+
+Check if two strings are rotations of each other.
+
+Find the edit distance (Levenshtein) between two strings.
+
+Given a string with brackets, check if balanced parentheses.
+
+🟧 PART–3: LIST/ARRAY ADVANCED LOGIC (10 Questions)
+
+Remove duplicates from list without using set.
+
+Find the second largest, third largest, kth largest element.
+
+Sort a list without using sort() function (write your own sorting logic).
+
+Find the majority element (appears more than n/2 times).
+
+Rearrange list so that positive and negative numbers alternate.
+
+Rotate a list by k steps.
+
+Find the maximum subarray sum (Kadane’s algorithm).
+
+Merge two sorted lists without using built-in sorting.
+
+Find the most frequent element in a list.
+
+Create a list of all numbers that occur more than once.
+
+🟦 PART–4: BOOLEAN, CONDITIONS, & PATTERN LOGIC (10 Questions)
+
+Given a list of booleans, return True if majority are True.
+
+Check if a list is sorted (ascending or descending).
+
+Verify if a string is a valid password (rules: length, digit, uppercase).
+
+Check if numbers in a list follow a strictly increasing pattern.
+
+Given two times (HH:MM), check if second time is after first time.
+
+Check if a list is palindromic (same forward & backward).
+
+Check if the product of digits of a number is even or odd.
+
+Validate if an email is correct format (basic logic).
+
+Print a diamond star pattern using loops.
+
+Given N, print a number pyramid.
